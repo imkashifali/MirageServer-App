@@ -1,8 +1,5 @@
-##Develop a React App against a Shared Mirage Server
+## Develop a React App against a Shared Mirage Server
 
-
-## Available Scripts
-In the project directory, you can run:
 
 ### `npm start`
 
