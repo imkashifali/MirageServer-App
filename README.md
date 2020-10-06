@@ -1,4 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ##Develop a React App against a Shared Mirage Server
 
 
