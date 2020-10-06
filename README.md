@@ -1,9 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##Develop a React App against a Shared Mirage Server
+
 
 ## Available Scripts
-
-Develop a React App against a Shared Mirage Server
-
 In the project directory, you can run:
 
 ### `npm start`
