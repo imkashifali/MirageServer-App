@@ -1,24 +1,22 @@
+import { increment, decrement, reset } from "./Action";
 const initializeState = {
-    counter: 0,
-    name:"Ali",
-    mazy:"MBA"
-}
+  counter: 0,
+  name: "Ali",
+  mazy: "MBA",
+};
 
-export default function CounterReducer(state=initializeState, action, ) {
+export default function CounterReducer(state = initializeState, action) {
+  switch (action.type) {
+    case increment:
+      return { ...state, counter: state.counter + 1 };
 
-    switch(action.type){
-       case 'INCREMENT':
-           return{...state, counter: state.counter + 1 };
+    case decrement:
+      return { ...state, counter: state.counter - 1 };
 
-           case 'DECREMENT':
-               return {...state, counter: state.counter - 1 };
+    case reset:
+      return {...initializeState};
 
-         case 'RESET':
-               return {...state, counter:0 };
-
-        default:
-            return state
-
-   }
-    
+    default:
+      return state;
+  }
 }
